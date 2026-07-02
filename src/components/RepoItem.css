@@ -1,0 +1,27 @@
+.repository-card {
+  margin: 12px;
+  border-radius: 18px;
+}
+
+.repository-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.repository-description {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.repository-language {
+  color: var(--ion-color-medium-shade);
+}
+
+.repository-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 14px;
+}

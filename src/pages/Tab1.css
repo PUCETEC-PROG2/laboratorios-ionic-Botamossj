@@ -1,0 +1,32 @@
+.repositories-summary {
+  padding: 20px 20px 8px;
+}
+
+.repositories-summary h2 {
+  margin: 0 0 6px;
+  font-size: 1.45rem;
+}
+
+.repositories-summary p {
+  margin: 0;
+  color: var(--ion-color-medium);
+}
+
+.repositories-list {
+  background: transparent;
+  padding: 4px 8px 24px;
+}
+
+.empty-state,
+.error-state {
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.empty-state h3 {
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: var(--ion-color-medium);
+}
