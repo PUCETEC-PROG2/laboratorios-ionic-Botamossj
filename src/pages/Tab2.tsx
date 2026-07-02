@@ -155,6 +155,11 @@ const Tab2: React.FC = () => {
           )}
 
           <IonButton expand="block" shape="round" onClick={saveRepository} disabled={loading}>
+            {isEditing && (
+              <div className="edit-mode-message">
+                Estás editando un repositorio existente
+              </div>
+            )}
             {isEditing ? 'Actualizar repositorio' : 'Crear repositorio'}
           </IonButton>
 
